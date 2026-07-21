@@ -5,6 +5,18 @@ import calendar
 import json
 import os
 
+# Hier kommt das Styling hin:
+st.markdown(
+    """
+    <style>
+    html, body, [class*="css"] {
+        font-size: 18px !important;
+    }
+    </style>
+    """,
+    unsafe_allow_html=True,
+)
+
 # Seiteneinstellungen
 st.set_page_config(page_title="Mein Task-Board", page_icon="☑️", layout="wide")
 
